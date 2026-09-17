@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <ItemGroup>
     <Filter Include="源文件">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
@@ -13,118 +13,139 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\排序">
+      <UniqueIdentifier>{4821DEEA-5F9E-40EC-BAB0-C92F97141DFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找与哈希">
+      <UniqueIdentifier>{50B00AF5-1770-4260-AB24-4EFB54044354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树与字符串">
+      <UniqueIdentifier>{BE8C0AF3-7983-48D3-9555-AA4974100A3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图算法">
+      <UniqueIdentifier>{62AAFDA8-7134-4838-A494-62AE3E429A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划与回溯">
+      <UniqueIdentifier>{E741BB4E-6CA7-47C6-8522-FDA37A9FBB03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\大数据算法">
+      <UniqueIdentifier>{59B91F85-51D0-42C1-8675-9EB9FEDA9989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\其他">
+      <UniqueIdentifier>{E6D3A999-CC8A-48DF-8309-FEBC48C260DA}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\数组.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="链表.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\链表.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="链表_单向循环.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\链表_单向循环.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="链表_双向.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\链表_双向.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="链表_双向循环.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\链表_双向循环.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="栈.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\栈.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="队列.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\队列.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="栈和队列互相实现.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\栈和队列互相实现.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="二分查找.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="查找与哈希\二分查找.cpp">
+      <Filter>源文件\查找与哈希</Filter>
     </ClCompile>
-    <ClCompile Include="基础排序算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="排序\基础排序算法.cpp">
+      <Filter>源文件\排序</Filter>
     </ClCompile>
-    <ClCompile Include="哈希表_线性探测.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="查找与哈希\哈希表_线性探测.cpp">
+      <Filter>源文件\查找与哈希</Filter>
     </ClCompile>
-    <ClCompile Include="哈希表_链地址法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="查找与哈希\哈希表_链地址法.cpp">
+      <Filter>源文件\查找与哈希</Filter>
     </ClCompile>
-    <ClCompile Include="大数据查重%28哈希表查重%29.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="大数据算法\大数据查重(哈希表查重).cpp">
+      <Filter>源文件\大数据算法</Filter>
     </ClCompile>
-    <ClCompile Include="大数据查重(位图法).cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="大数据算法\大数据查重(位图法).cpp">
+      <Filter>源文件\大数据算法</Filter>
     </ClCompile>
-    <ClCompile Include="大数据查重(布隆过滤器).cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="大数据算法\大数据查重(布隆过滤器).cpp">
+      <Filter>源文件\大数据算法</Filter>
     </ClCompile>
-    <ClCompile Include="大数据查重%28top key问题_堆%29.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="大数据算法\大数据查重(top key问题_堆).cpp">
+      <Filter>源文件\大数据算法</Filter>
     </ClCompile>
-    <ClCompile Include="大数据查重(top key问题_快排分割).cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="大数据算法\大数据查重(top key问题_快排分割).cpp">
+      <Filter>源文件\大数据算法</Filter>
     </ClCompile>
-    <ClCompile Include="一致性哈希算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="查找与哈希\一致性哈希算法.cpp">
+      <Filter>源文件\查找与哈希</Filter>
     </ClCompile>
-    <ClCompile Include="AVL.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\AVL.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="BSTree.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\BSTree.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="红黑树.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\红黑树.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="B树.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\B树.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="回溯算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="动态规划与回溯\回溯算法.cpp">
+      <Filter>源文件\动态规划与回溯</Filter>
     </ClCompile>
-    <ClCompile Include="分治算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="动态规划与回溯\分治算法.cpp">
+      <Filter>源文件\动态规划与回溯</Filter>
     </ClCompile>
-    <ClCompile Include="动态规划算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="动态规划与回溯\动态规划算法.cpp">
+      <Filter>源文件\动态规划与回溯</Filter>
     </ClCompile>
-    <ClCompile Include="贪心算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="动态规划与回溯\贪心算法.cpp">
+      <Filter>源文件\动态规划与回溯</Filter>
     </ClCompile>
-    <ClCompile Include="分支限界算法.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="动态规划与回溯\分支限界算法.cpp">
+      <Filter>源文件\动态规划与回溯</Filter>
     </ClCompile>
-    <ClCompile Include="BF.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\BF.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="KMP.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\KMP.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="Trie树.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\Trie树.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="跳跃表SkipList.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\跳跃表SkipList.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="倒排索引.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\倒排索引.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="哈夫曼树.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="树与字符串\哈夫曼树.cpp">
+      <Filter>源文件\树与字符串</Filter>
     </ClCompile>
-    <ClCompile Include="有向图无向图.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="图算法\有向图无向图.cpp">
+      <Filter>源文件\图算法</Filter>
     </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="图算法\Dijkstra.cpp">
+      <Filter>源文件\图算法</Filter>
     </ClCompile>
-    <ClCompile Include="Floyd.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="图算法\Floyd.cpp">
+      <Filter>源文件\图算法</Filter>
     </ClCompile>
-    <ClCompile Include="并查集.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="其他\并查集.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

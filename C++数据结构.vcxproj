@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -124,43 +124,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AVL.cpp" />
-    <ClCompile Include="BF.cpp" />
-    <ClCompile Include="BSTree.cpp" />
-    <ClCompile Include="B树.cpp" />
-    <ClCompile Include="Dijkstra.cpp" />
-    <ClCompile Include="Floyd.cpp" />
-    <ClCompile Include="KMP.cpp" />
-    <ClCompile Include="Trie树.cpp" />
-    <ClCompile Include="一致性哈希算法.cpp" />
-    <ClCompile Include="二分查找.cpp" />
-    <ClCompile Include="倒排索引.cpp" />
-    <ClCompile Include="分支限界算法.cpp" />
-    <ClCompile Include="分治算法.cpp" />
-    <ClCompile Include="动态规划算法.cpp" />
-    <ClCompile Include="哈夫曼树.cpp" />
-    <ClCompile Include="回溯算法.cpp" />
-    <ClCompile Include="大数据查重(top key问题_快排分割).cpp" />
-    <ClCompile Include="并查集.cpp" />
-    <ClCompile Include="有向图无向图.cpp" />
-    <ClCompile Include="红黑树.cpp" />
-    <ClCompile Include="贪心算法.cpp" />
-    <ClCompile Include="跳跃表SkipList.cpp" />
-    <ClCompile Include="链表_单向循环.cpp" />
-    <ClCompile Include="链表_双向循环.cpp" />
-    <ClCompile Include="链表_双向.cpp" />
-    <ClCompile Include="大数据查重%28哈希表查重%29.cpp" />
-    <ClCompile Include="哈希表_线性探测.cpp" />
-    <ClCompile Include="基础排序算法.cpp" />
-    <ClCompile Include="大数据查重%28top key问题_堆%29.cpp" />
-    <ClCompile Include="大数据查重(位图法).cpp" />
-    <ClCompile Include="大数据查重(布隆过滤器).cpp" />
-    <ClCompile Include="数组.cpp" />
-    <ClCompile Include="栈.cpp" />
-    <ClCompile Include="栈和队列互相实现.cpp" />
-    <ClCompile Include="哈希表_链地址法.cpp" />
-    <ClCompile Include="链表.cpp" />
-    <ClCompile Include="队列.cpp" />
+    <ClCompile Include="树与字符串\AVL.cpp" />
+    <ClCompile Include="树与字符串\BF.cpp" />
+    <ClCompile Include="树与字符串\BSTree.cpp" />
+    <ClCompile Include="树与字符串\B树.cpp" />
+    <ClCompile Include="图算法\Dijkstra.cpp" />
+    <ClCompile Include="图算法\Floyd.cpp" />
+    <ClCompile Include="树与字符串\KMP.cpp" />
+    <ClCompile Include="树与字符串\Trie树.cpp" />
+    <ClCompile Include="查找与哈希\一致性哈希算法.cpp" />
+    <ClCompile Include="查找与哈希\二分查找.cpp" />
+    <ClCompile Include="树与字符串\倒排索引.cpp" />
+    <ClCompile Include="动态规划与回溯\分支限界算法.cpp" />
+    <ClCompile Include="动态规划与回溯\分治算法.cpp" />
+    <ClCompile Include="动态规划与回溯\动态规划算法.cpp" />
+    <ClCompile Include="树与字符串\哈夫曼树.cpp" />
+    <ClCompile Include="动态规划与回溯\回溯算法.cpp" />
+    <ClCompile Include="大数据算法\大数据查重(top key问题_快排分割).cpp" />
+    <ClCompile Include="其他\并查集.cpp" />
+    <ClCompile Include="图算法\有向图无向图.cpp" />
+    <ClCompile Include="树与字符串\红黑树.cpp" />
+    <ClCompile Include="动态规划与回溯\贪心算法.cpp" />
+    <ClCompile Include="树与字符串\跳跃表SkipList.cpp" />
+    <ClCompile Include="其他\链表_单向循环.cpp" />
+    <ClCompile Include="其他\链表_双向循环.cpp" />
+    <ClCompile Include="其他\链表_双向.cpp" />
+    <ClCompile Include="大数据算法\大数据查重(哈希表查重).cpp" />
+    <ClCompile Include="查找与哈希\哈希表_线性探测.cpp" />
+    <ClCompile Include="排序\基础排序算法.cpp" />
+    <ClCompile Include="大数据算法\大数据查重(top key问题_堆).cpp" />
+    <ClCompile Include="大数据算法\大数据查重(位图法).cpp" />
+    <ClCompile Include="大数据算法\大数据查重(布隆过滤器).cpp" />
+    <ClCompile Include="其他\数组.cpp" />
+    <ClCompile Include="其他\栈.cpp" />
+    <ClCompile Include="其他\栈和队列互相实现.cpp" />
+    <ClCompile Include="查找与哈希\哈希表_链地址法.cpp" />
+    <ClCompile Include="其他\链表.cpp" />
+    <ClCompile Include="其他\队列.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />
