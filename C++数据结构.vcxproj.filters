@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表_单向循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表_双向.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表_双向循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈和队列互相实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="基础排序算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表_线性探测.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表_链地址法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大数据查重%28哈希表查重%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大数据查重(位图法).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大数据查重(布隆过滤器).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大数据查重%28top key问题_堆%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大数据查重(top key问题_快排分割).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="一致性哈希算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BSTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="红黑树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="B树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="回溯算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分治算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支限界算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="跳跃表SkipList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="倒排索引.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈夫曼树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="有向图无向图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
